@@ -22,9 +22,9 @@ const HeroSection = () => {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-heading font-bold leading-tight max-w-4xl mx-auto">
 
-          Tworzymy Cyfrowe{" "}
-          <span className="text-primary neon-text-cyan">Arcydzieła</span>{" "}
-          dla Twojego Biznesu
+          Tworzenie stron internetowych dla Firm –{" "}
+          <span className="text-primary neon-text-cyan">Nowoczesne i Szybkie</span>{" "}
+          Strony WWW
         </motion.h1>
 
         <motion.p
