@@ -20,39 +20,39 @@ const HeroSection = () => {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
-          className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-heading font-bold leading-tight max-w-4xl mx-auto"
-        >
-          Tworzenie stron internetowych dla Firm –{" "}
-          <span className="text-primary neon-text-cyan">Nowoczesne i Szybkie</span>{" "}
-          Strony WWW
+          className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-heading font-bold leading-tight max-w-4xl mx-auto">
+
+          Tworzymy Cyfrowe{" "}
+          <span className="text-primary neon-text-cyan">Arcydzieła</span>{" "}
+          dla Twojego Biznesu
         </motion.h1>
 
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
-          className="mt-6 text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto"
-        >
-          FluxSite to studio projektowe klasy premium. Budujemy szybkie, estetyczne i sprzedające strony WWW.
+          className="mt-6 text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">Profesjonalne projektowanie i tworzenie stron internetowych dla firm. Jako agencja interaktywna dostarczamy szybkie, responsywne i zoptymalizowane pod SEO strony WWW, które skutecznie budują wizerunek Twojej marki w sieci.
+
+
         </motion.p>
 
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
-          className="mt-10"
-        >
+          className="mt-10">
+
           <button
             onClick={scrollToContact}
-            className="group inline-flex items-center gap-2 px-8 py-4 text-lg font-semibold rounded-xl bg-primary text-primary-foreground neon-glow-cyan hover:brightness-110 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-primary/50"
-          >
+            className="group inline-flex items-center gap-2 px-8 py-4 text-lg font-semibold rounded-xl bg-primary text-primary-foreground neon-glow-cyan hover:brightness-110 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-primary/50">
+
             Darmowa Wycena
             <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
           </button>
         </motion.div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default HeroSection;

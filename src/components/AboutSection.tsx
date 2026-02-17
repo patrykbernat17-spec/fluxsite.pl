@@ -12,8 +12,8 @@ const AboutSection = () => {
                 src={workspaceImg}
                 alt="Nowoczesne stanowisko pracy programisty z kolorowym oświetleniem"
                 className="w-full h-auto rounded-xl object-cover aspect-[4/3]"
-                loading="lazy"
-              />
+                loading="lazy" />
+
             </div>
           </ScrollReveal>
 
@@ -28,20 +28,20 @@ const AboutSection = () => {
               Nasz stos technologiczny to najnowsze narzędzia: React, Vite, Tailwind CSS oraz AI. Wierzymy, że każdy projekt zasługuje na indywidualne podejście i perfekcyjne wykonanie.
             </p>
             <div className="flex flex-wrap gap-3">
-              {["React", "Vite", "Tailwind CSS", "TypeScript", "AI"].map((tech) => (
-                <span
-                  key={tech}
-                  className="px-4 py-1.5 text-sm font-medium rounded-full glass-surface text-primary border border-primary/20"
-                >
+              {["React", "Vite", "Tailwind CSS", "TypeScript", "AI"].map((tech) =>
+              <span
+                key={tech}
+                className="px-4 py-1.5 text-sm font-medium rounded-full glass-surface text-primary border border-primary/20">
+
                   {tech}
                 </span>
-              ))}
+              )}
             </div>
           </ScrollReveal>
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default AboutSection;
