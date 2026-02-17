@@ -10,7 +10,7 @@ const items = [
   {
     icon: Search,
     title: "Gotowość pod SEO",
-    description: "Semantyczny HTML, zoptymalizowane meta tagi i struktura, która podoba się wyszukiwarkom.",
+    description: "Semantyczny kod HTML, zoptymalizowane metatagi i struktura w pełni przyjazna wyszukiwarkom.",
   },
   {
     icon: Smartphone,
