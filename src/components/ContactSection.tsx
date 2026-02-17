@@ -1,4 +1,4 @@
-import { Phone, Mail } from "lucide-react";
+import { MapPin, Phone, Mail } from "lucide-react";
 import ScrollReveal from "./ScrollReveal";
 
 const ContactSection = () => {
@@ -17,7 +17,15 @@ const ContactSection = () => {
         </ScrollReveal>
 
         <ScrollReveal delay={0.15}>
-          <div className="grid sm:grid-cols-2 gap-6 max-w-2xl mx-auto">
+          <div className="grid sm:grid-cols-3 gap-6">
+            <div className="glass-surface rounded-2xl p-8 text-center">
+              <MapPin size={28} className="text-primary mx-auto mb-4" />
+              <h3 className="font-heading font-semibold mb-2">Adres</h3>
+              <p className="text-sm text-muted-foreground">+48 730 319 520
+                <br />
+                00-001 Warszawa
+              </p>
+            </div>
             <div className="glass-surface rounded-2xl p-8 text-center">
               <Phone size={28} className="text-primary mx-auto mb-4" />
               <h3 className="font-heading font-semibold mb-2">Telefon</h3>
@@ -35,8 +43,8 @@ const ContactSection = () => {
           </div>
         </ScrollReveal>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default ContactSection;
